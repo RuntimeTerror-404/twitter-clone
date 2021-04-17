@@ -8,6 +8,7 @@
 .feed_header {
   position: sticky;
   top: 0;
+  text-align: center;
   background-color: white;
   z-index: 100;
   border: 1px solid var(--twitter-background);
