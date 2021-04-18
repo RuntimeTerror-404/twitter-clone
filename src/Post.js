@@ -2,6 +2,10 @@ import { Avatar } from "@material-ui/core";
 import React from "react";
 import "./Post.css";
 import VerifiedUserIcon from "@material-ui/icons/VerifiedUser";
+import ChatBubbleOutlineIcon from "@material-ui/icons/ChatBubbleOutline";
+import RepeatIcon from "@material-ui/icons/Repeat";
+import FavouriteBorderIcon from "@material-ui/icons/FavoriteBorderOutlined";
+import PublishIcon from "@material-ui/icons/Publish";
 
 function Post(displayName, userName, verified, text, image, avatar) {
   return (
@@ -14,8 +18,8 @@ function Post(displayName, userName, verified, text, image, avatar) {
           <div className="post_headerText">
             <h3>
               Mohit Parashar{" "}
-              <span>
-                <VerifiedUserIcon className="post_badge" /> @mohit
+              <span className="post_headerSpecial">
+                <VerifiedUserIcon className="post_badge" /> @lucif3r
               </span>
             </h3>
           </div>
@@ -23,11 +27,17 @@ function Post(displayName, userName, verified, text, image, avatar) {
             <p>I am a computer programmer who like web development most</p>
           </div>
         </div>
-        <div>
-          <img
-            src="https://media.giphy.com/media/T8Dhl1KPyzRqU/giphy.gif"
-            alt=""
-          />
+
+        <img
+          src="https://media.giphy.com/media/T8Dhl1KPyzRqU/giphy.gif"
+          alt=""
+        />
+
+        <div className="post_footer">
+          <ChatBubbleOutlineIcon fontSize="small" />
+          <RepeatIcon fontSize="small" />
+          <FavouriteBorderIcon fontSize="small" />
+          <PublishIcon fontSize="small" />
         </div>
       </div>
     </div>
