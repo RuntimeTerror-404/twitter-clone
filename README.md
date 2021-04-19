@@ -1,5 +1,10 @@
 # Getting Started with Create React App
 
+<img width="960" alt="twitter-1" src="https://user-images.githubusercontent.com/58487973/115282061-5bdf5b00-a167-11eb-942a-0e7b64b1e0ad.png">
+
+<img width="960" alt="twitter-2" src="https://user-images.githubusercontent.com/58487973/115282167-80d3ce00-a167-11eb-87e0-0ed4ef2fc1ad.png">
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
